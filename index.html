@@ -1,11 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Grid and Flex Chess</title>
 </head>
+
 <body>
-    
+    <h1>Chess on grid</h1>
+    <div class="chess-board">
+        <div class="letters">
+            <span class="letters-after-one">A</span>
+            <span class="letters-after-one">B</span>
+            <span class="letters-after-one">C</span>
+            <span class="letters-after-one">D</span>
+            <span class="letters-after-one">E</span>
+            <span class="letters-after-one">F</span>
+            <span class="letters-after-one">G</span>
+            <span class="letters-after-one">H</span>
+        </div>
+        <div class="chess__grid">
+            <div class="numbers">
+                <span>1</span><br>
+                <span>2</span><br>
+                <span>3</span><br>
+                <span>4</span><br>
+                <span>5</span><br>
+                <span>6</span><br>
+                <span>7</span><br>
+                <span>8</span>
+            </div>
+            <div class="grid">
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+                <div class="grid-item-black"></div>
+                <div class="grid-item-white"></div>
+            </div>
+            <div class="numbers">
+                <span>1</span><br>
+                <span>2</span><br>
+                <span>3</span><br>
+                <span>4</span><br>
+                <span>5</span><br>
+                <span>6</span><br>
+                <span>7</span><br>
+                <span>8</span>
+            </div>
+        </div>
+        <div class="letters">
+            <span class="letters-after-one">A</span>
+            <span class="letters-after-one">B</span>
+            <span class="letters-after-one">C</span>
+            <span class="letters-after-one">D</span>
+            <span class="letters-after-one">E</span>
+            <span class="letters-after-one">F</span>
+            <span class="letters-after-one">G</span>
+            <span class="letters-after-one">H</span>
+        </div>
+    </div>
+
+    <h2>Chess on flex</h2>
+
+    <div class="chess-on-flex">
+        <div class="chess-on-flex-letters">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+            <span>D</span>
+            <span>E</span>
+            <span>F</span>
+            <span>G</span>
+            <span>H</span>
+        </div>
+        <div class="chess-on-flex-numbers-with-board">
+            <div class="flex-numbers">
+                <span>1</span><br>
+                <span>2</span><br>
+                <span>3</span><br>
+                <span>4</span><br>
+                <span>5</span><br>
+                <span>6</span><br>
+                <span>7</span><br>
+                <span>8</span>
+            </div>
+            <div class="flex-fields">
+                <div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                </div>
+                <div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                </div>
+                <div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                </div>
+                <div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                </div>
+                <div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                </div>
+                <div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                </div>
+                <div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                </div>
+                <div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                    <div class="flex-black"></div>
+                    <div class="flex-white"></div>
+                </div>
+            </div>
+            <div class="flex-numbers">
+                <span>1</span><br>
+                <span>2</span><br>
+                <span>3</span><br>
+                <span>4</span><br>
+                <span>5</span><br>
+                <span>6</span><br>
+                <span>7</span><br>
+                <span>8</span>
+            </div>
+        </div>
+        <div class="chess-on-flex-letters">
+            <span>A</span>
+            <span>B</span>
+            <span>C</span>
+            <span>D</span>
+            <span>E</span>
+            <span>F</span>
+            <span>G</span>
+            <span>H</span>
+        </div>
+    </div>
 </body>
+
 </html>
