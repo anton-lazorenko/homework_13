@@ -1,0 +1,52 @@
+.numbers {
+  display: grid;
+  gap: 16px;
+  font-size: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.letters {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.letters-after-one {
+  padding-left: 80px;
+}
+
+.chess-board {
+  border: 5px solid #000;
+  width: 900px;
+}
+
+.chess__grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+  border: 2px solid #000;
+  width: 800px;
+}
+.grid-item {
+  width: 100px;
+  height: 100px;
+}
+.grid-item-white {
+  background-color: #fff;
+}
+.grid-item-black {
+  background-color: #000;
+}
+
+/*# sourceMappingURL=styles.css.map */
